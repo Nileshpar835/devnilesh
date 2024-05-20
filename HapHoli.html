@@ -86,11 +86,33 @@
         -moz-transform: translateX(-50%);
         transform: translateX(-50%);
 }
+	.mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    background-color: #149ddd;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
 
 </style>
 </head>
 <body>
 <canvas></canvas>
+	    <li><a href="index.html" class="mobile-nav-toggle"><i class="bx bx-home bx-fade-up"></i> <span>🏠</span></a></li>
+
 	<marquee>Wishing You Happy Holi</marquee>
 
 <div>Happy Holi</div>
